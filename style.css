@@ -4,6 +4,7 @@ body{
     padding:3px;
     margin-left:435px;
 }
+ 
 h1{
     display:flex;
     justify-content:center;
@@ -16,4 +17,4 @@ a{
 }
 p{
     margin-bottom:1px;
-}
+} 
