@@ -1,0 +1,47 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+    font-family:Arial, sans-serif;
+    line-height:1.6;
+}
+.portfolio{
+    max-width:700px;
+    width:90%;
+    border:1px solid black;
+    margin:auto;
+    padding:10px;
+    border-radius:12px;
+}
+#home{
+    text-align:center;
+    padding:60px 20px;
+}
+header nav{
+    display:flex;
+    justify-content:flex-end;
+    gap:20px;
+}
+header nav a{
+    text-decoration:none;
+    color:black;
+    transition:0.3s;
+}
+header nav a:hover{
+    color:blue;
+}
+button{
+    border-radius:10px;
+}
+#contact nav{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+#contact nav a{
+    text-decoration:none;
+    color:black;
+}
+#contact nav a:hover{
+    color:blue;
+}
