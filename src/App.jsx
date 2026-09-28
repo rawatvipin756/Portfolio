@@ -3,7 +3,7 @@ import "./App.css";
 function Navbar(){
   return(
     <div>
-      <nav>
+      <nav className="nav">
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
