@@ -22,14 +22,16 @@ header{
 }
 .nav{
     display:flex;
-    justify-content:center;
+    justify-content:end;
+    gap:20px;
+    padding:10px;
 }
-header nav a{
+.nav a{
     text-decoration:none;
     color:black;
     transition:0.3s;
 }
-header nav a:hover{
+.nav a:hover{
     color:blue;
 }
 button{
