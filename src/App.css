@@ -20,11 +20,15 @@ body{
 header{
     padding:15px 20px;
 }
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+}
 .nav{
     display:flex;
-    justify-content:end;
     gap:20px;
-    padding:10px;
 }
 .nav a{
     text-decoration:none;

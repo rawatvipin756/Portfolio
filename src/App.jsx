@@ -2,7 +2,8 @@ import "./App.css";
 
 function Navbar(){
   return(
-    <div>
+    <div className="navbar">
+      <p>Vipin</p>
       <nav className="nav">
           <a href="#home">Home</a>
           <a href="#about">About</a>
